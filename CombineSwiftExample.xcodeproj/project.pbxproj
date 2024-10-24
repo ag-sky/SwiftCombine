@@ -11,6 +11,8 @@
 		078505822CCAB17C00909A4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078505812CCAB17C00909A4E /* ContentView.swift */; };
 		078505842CCAB17E00909A4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078505832CCAB17E00909A4E /* Assets.xcassets */; };
 		078505872CCAB17E00909A4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078505862CCAB17E00909A4E /* Preview Assets.xcassets */; };
+		0785058E2CCAB21100909A4E /* CombineRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0785058D2CCAB21100909A4E /* CombineRepository.swift */; };
+		078505902CCAB9E200909A4E /* CombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0785058F2CCAB9E200909A4E /* CombineViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		078505812CCAB17C00909A4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		078505832CCAB17E00909A4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		078505862CCAB17E00909A4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0785058D2CCAB21100909A4E /* CombineRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineRepository.swift; sourceTree = "<group>"; };
+		0785058F2CCAB9E200909A4E /* CombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		0785057E2CCAB17C00909A4E /* CombineSwiftExample */ = {
 			isa = PBXGroup;
 			children = (
+				0785058F2CCAB9E200909A4E /* CombineViewModel.swift */,
+				0785058D2CCAB21100909A4E /* CombineRepository.swift */,
 				0785057F2CCAB17C00909A4E /* CombineSwiftExampleApp.swift */,
 				078505812CCAB17C00909A4E /* ContentView.swift */,
 				078505832CCAB17E00909A4E /* Assets.xcassets */,
@@ -139,6 +145,8 @@
 			files = (
 				078505822CCAB17C00909A4E /* ContentView.swift in Sources */,
 				078505802CCAB17C00909A4E /* CombineSwiftExampleApp.swift in Sources */,
+				078505902CCAB9E200909A4E /* CombineViewModel.swift in Sources */,
+				0785058E2CCAB21100909A4E /* CombineRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

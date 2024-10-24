@@ -2,23 +2,30 @@
 //  ContentView.swift
 //  CombineSwiftExample
 //
-//  Created by Deeksha Verma on 24/10/24.
+//  Created by Akash gupta on 24/10/24.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct CombineView: View {
+    @StateObject var viewmodel = CombineViewModel()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            List(viewmodel.items, id: \.self) {
+                item in
+                Text(item)
+            }
         }
         .padding()
+        Button(action:{
+            viewmodel.addItem("Ravindra")
+        }){
+            Text("Add New Item")
+        }
     }
 }
 
 #Preview {
-    ContentView()
+    CombineView()
 }

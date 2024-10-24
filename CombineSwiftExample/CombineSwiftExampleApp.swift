@@ -11,7 +11,7 @@ import SwiftUI
 struct CombineSwiftExampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CombineView()
         }
     }
 }
